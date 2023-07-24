@@ -1,0 +1,110 @@
+a{
+    text-decoration: none;
+    display: inline;
+}
+
+body {
+    margin: 0px;
+    background-color:#202020;
+    height: 1000px;
+}
+
+.body{
+    background-color: white;
+}
+
+.header {
+    height: 110px;
+    margin: 0px;
+    display: flex;
+    background-color: #202020;
+    
+    
+}
+
+.pfp {
+    height: 90px;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: inline;
+}
+
+.name {
+    display: inline;
+    color: white;
+    padding-top: 40px;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.theme-switch {
+    margin-left: auto; 
+    margin-right: 10px;
+}
+
+p{
+    margin: 0px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+    margin-top: 0px;
+}
+
+.inline {
+    display: inline;
+}
+
+.buttons-div{
+    display: inline;
+    margin-left: 50px;
+    
+    height: auto;
+}
+
+.inner-image{
+    width: 90px;
+    padding: 15px;
+}
+
+.move-button{
+    background-color: inherit;
+    border: solid;
+    border-color: white;
+    border-radius: 63px;
+    margin-left: 10px;
+}
+
+.move-button:hover {
+cursor: pointer;
+}
+
+.move-img{
+    width: 50px;
+}
+
+.result{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 35px;
+    padding-left: 230px;
+}
+
+.moves{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding-left: 190px;
+}
+
+.score{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}

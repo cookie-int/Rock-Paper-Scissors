@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Rock Paper Scissors</title>
+      <link rel="stylesheet" href="rps.css">
+      <link rel="stylesheet" href="theme-but.css">
+      <link rel="stylesheet" href="rs-but.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <!-- HEADER -->
+  <div class="header">
+    <a href="https://github.com/cookie-int" target="_blank"><img class="pfp" src="emojis/github pfp.png"></a>
+        <p class="name"> COOKIE - INT</p>
+        <div class="theme-switch"><label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+      </label></div>
+</div>
+
+<!-- BODY -->
+  <div class="title"> <p> PLAY - ROCK PAPER SCISSORS</p></div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr;">
+    <div  style="display:inline; margin-top: 20px; margin-left: 50px">
+      <div  class="buttons-div">
+        <div class="inline"><button  onclick=" playGame('rock');" class="move-button"><img class="inner-image" src="emojis/rock-emoji.png"></button></div>
+        <div class="inline"><button  onclick=" playGame('paper');" class="move-button"><img class="inner-image" src="emojis/paper-emoji.png"></button></div>
+        <div class="inline"><button  onclick=" playGame('scissors');" class="move-button"><img class="inner-image" src="emojis/scissors-emoji.png"></button></div>
+        </div>
+        <div style="margin-top: 20px;">  <p class="result"></p> </div>
+        <div style="margin-top: 25px;"> <p class="moves"></p> </div> 
+    </div>
+    <div display:inline">
+        <p style="text-align: center; color:white; font-family: 'Bungee Spice', cursive; font-size:40px; margin-top: 20px;"> SCORE </p>
+        <p class="score"></p>
+        <button style="margin-left: 250px;" class="but" onclick=" resetScore();">RESET SCORE</button>
+    <div>
+
+
+<script src="rps.js" > </script>
+</body>
+</html>
